@@ -2,6 +2,9 @@ class AppRoutes {
   // Auth routes
   static const String splash = '/';
   static const String login = '/login';
+  static const String signup = '/signup';
+  static const String welcome = '/welcome';
+  static const String authChoice = '/auth-choice';
 
   // Customer routes
   static const String customerRooms = '/customer/rooms';

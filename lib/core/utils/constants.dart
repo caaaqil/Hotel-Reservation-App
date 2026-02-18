@@ -17,8 +17,9 @@ class AppConstants {
   // Settings keys
   static const String currentUserIdKey = 'current_user_id';
   static const String isFirstLaunchKey = 'is_first_launch';
+  static const String hasSeenIntroKey = 'has_seen_intro';
 
   // App info
-  static const String appName = 'Hotel Reservation';
+  static const String appName = 'Roomly';
   static const String appVersion = '1.0.0';
 }

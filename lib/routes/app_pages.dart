@@ -1,6 +1,9 @@
 import 'package:get/get.dart';
 import '../presentation/pages/splash_screen.dart';
 import '../presentation/pages/auth/login_screen.dart';
+import '../presentation/pages/auth/signup_screen.dart';
+import '../presentation/pages/onboarding/welcome_screen.dart';
+import '../presentation/pages/onboarding/auth_choice_screen.dart';
 import '../presentation/pages/customer/rooms_list_screen.dart';
 import '../presentation/pages/customer/room_details_screen.dart';
 import '../presentation/pages/customer/booking_calendar_screen.dart';
@@ -21,6 +24,18 @@ class AppPages {
     GetPage(
       name: AppRoutes.login,
       page: () => const LoginScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.signup,
+      page: () => const SignupScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.welcome,
+      page: () => const WelcomeScreen(),
+    ),
+    GetPage(
+      name: AppRoutes.authChoice,
+      page: () => const AuthChoiceScreen(),
     ),
     GetPage(
       name: AppRoutes.customerRooms,
